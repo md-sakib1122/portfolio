@@ -10,7 +10,7 @@
     --orange:rgb(253, 110, 10);
     --lightorange : #FFF8F3;
     --dark2: rgb(71, 71, 71);
-    --dark3: rgb(71, 71, 71);
+    --dark3: rgb(117, 117, 117);
   }
 
   .btn-primary{
@@ -109,4 +109,119 @@ header ul li a{
  header .banner-content{
 
     width: 500px;
+ }
+
+ /* .................main...................... */
+ main{
+    max-width: 940px;
+    margin: auto;
+    margin-top: 40px;
+ }
+
+ main #about {
+    width: 100%;
+    text-align: center;
+    background-color:  var(--lightorange);
+    margin-bottom: 50px;
+ }
+#about .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 711px;
+    margin: auto;
+}
+ main #about .details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+ #about .details p{
+    color: var(--dark3);
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-bottom: -10PX;
+ }
+ #about .details h4{
+    color: var(--dark2);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 40px;
+ }
+
+ main .do{
+    text-align: center;
+ }
+
+ main .do p{
+    color: var(--dark3);
+    margin-bottom: 15px;
+ }
+
+
+
+ /* .................... */
+
+ .card-container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+ }
+
+ .card-container div{
+    width: 180px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 4px;
+ }
+
+ .card-container p{
+    font-size: 13px;
+    color: var(--dark3);
+    
+ }
+
+ .maincontainer{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .maincontainer .left div, .right div{
+    border-bottom: 2px solid rgb(209, 209, 209);
+ }
+
+  section>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+ }
+
+ .maincontainer .left ,.right{
+     width: 430px;
+ }
+
+ .maincontainer p{
+    color: var(--dark3);
+    font-size: 14px;
+ }
+
+ .maincontainer h4{
+    color: var(--dark3);
+ }
+
+ .maincontainer h1,h2{
+    color: var(--dark2);
+ }
+
+ .maincontainer h2{
+    font-size: 20px;
+ }
+
+ .resumesec .btn-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
  }
